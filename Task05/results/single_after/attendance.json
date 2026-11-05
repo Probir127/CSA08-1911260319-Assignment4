@@ -1,0 +1,17 @@
+{
+  "1911260001": {
+    "present": 1,
+    "total": 4,
+    "percentage": 25.0
+  },
+  "1911260002": {
+    "present": 2,
+    "total": 4,
+    "percentage": 50.0
+  },
+  "1911260003": {
+    "present": 0,
+    "total": 3,
+    "percentage": 0.0
+  }
+}

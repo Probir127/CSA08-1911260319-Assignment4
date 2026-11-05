@@ -1,0 +1,33 @@
+$ python3 Task05/compare.py
+{
+  "single": {
+    "changed_files": [
+      "main.py"
+    ],
+    "count": 1
+  },
+  "module": {
+    "changed_files": [
+      "main.py",
+      "utility.py"
+    ],
+    "count": 2
+  },
+  "three_modules": {
+    "changed_files": [
+      "main.py",
+      "report.py",
+      "stats.py"
+    ],
+    "count": 3
+  },
+  "package": {
+    "changed_files": [
+      "attendance/report.py",
+      "attendance/stats.py",
+      "main.py"
+    ],
+    "count": 3
+  }
+}
+All eight organisations agree; only 1911260001 has 3 consecutive absent calendar dates PASS
