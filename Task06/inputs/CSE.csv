@@ -1,0 +1,5 @@
+1911260001,Student A,CSE,a@example.test,Dance
+1911260001,Student A,CSE,a@example.test,Quiz
+1911260002,Student B,CSE,invalid-email,Music
+damaged,line
+1911260001,Conflicting Name,CSE,other@example.test,Dance

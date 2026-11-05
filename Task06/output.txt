@@ -1,0 +1,34 @@
+$ python3 Task06/demo.py
+Wrong-encoding row rejected; following valid row processed PASS
+{
+  "unique_students": 4,
+  "duplicates_merged": 1,
+  "rejected_rows": 3,
+  "file_errors": 1,
+  "participants": {
+    "Dance": 1,
+    "Music": 2,
+    "Drama": 1,
+    "Quiz": 1,
+    "Art": 0
+  }
+}
+All fest requirements and validation checks PASS
+
+$ python3 Task06/duplicate_benchmark.py
+[
+  {
+    "n": 1000,
+    "list_equality_checks_model": 499500,
+    "set_membership_operations": 1000,
+    "list_seconds": 0.002153082998120226,
+    "set_seconds": 4.233299841871485e-05
+  },
+  {
+    "n": 10000,
+    "list_equality_checks_model": 49995000,
+    "set_membership_operations": 10000,
+    "list_seconds": 0.21852950000175042,
+    "set_seconds": 0.0004920420033158734
+  }
+]

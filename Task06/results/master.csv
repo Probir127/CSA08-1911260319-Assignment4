@@ -1,0 +1,5 @@
+register,name,department,email,events
+1911260001,Student A,CSE,a@example.test,Dance;Quiz
+1911260003,Student C,ECE,c@example.test,Music
+1911260004,Student D,EEE,d@example.test,Music
+1911260005,Student E,MECH,e@example.test,Drama

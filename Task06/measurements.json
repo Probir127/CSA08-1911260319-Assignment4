@@ -1,0 +1,16 @@
+[
+  {
+    "n": 1000,
+    "list_equality_checks_model": 499500,
+    "set_membership_operations": 1000,
+    "list_seconds": 0.002153082998120226,
+    "set_seconds": 4.233299841871485e-05
+  },
+  {
+    "n": 10000,
+    "list_equality_checks_model": 49995000,
+    "set_membership_operations": 10000,
+    "list_seconds": 0.21852950000175042,
+    "set_seconds": 0.0004920420033158734
+  }
+]

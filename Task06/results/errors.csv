@@ -1,0 +1,6 @@
+file,line,type,message
+CSE.csv,2,DUPLICATE_MERGED,events merged into existing student
+CSE.csv,3,InvalidRecord,invalid email
+CSE.csv,4,InvalidRecord,"expected 5 fields, found 2"
+CSE.csv,5,InvalidRecord,conflicting duplicate identity
+CIVIL.csv,0,FileNotFoundError,[Errno 2] No such file or directory: '/Users/probirshohom/Documents/Codex/2026-11-05/files-mentioned-by-the-user-csa08/outputs/CSA08_Assignment4_Solved/Task06/inputs/CIVIL.csv'

@@ -1,0 +1,13 @@
+{
+  "unique_students": 4,
+  "duplicates_merged": 1,
+  "rejected_rows": 3,
+  "file_errors": 1,
+  "participants": {
+    "Dance": 1,
+    "Music": 2,
+    "Drama": 1,
+    "Quiz": 1,
+    "Art": 0
+  }
+}
