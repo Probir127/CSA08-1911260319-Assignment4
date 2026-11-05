@@ -1,0 +1,68 @@
+{
+  "real_file_failures": [
+    {
+      "file": "wrong_encoding.csv",
+      "line": 1,
+      "type": "InvalidRecord",
+      "message": "duplicate register/date",
+      "raw": "1911260001,2026-10-08,P"
+    },
+    {
+      "file": "wrong_encoding.csv",
+      "line": 2,
+      "type": "UnicodeDecodeError",
+      "message": "'utf-8' codec can't decode byte 0xff in position 0: invalid start byte",
+      "raw": "\ufffd"
+    },
+    {
+      "file": "missing.csv",
+      "line": 0,
+      "type": "FileNotFoundError",
+      "message": "[Errno 2] No such file or directory: '/var/folders/cc/0mgr28nj3b99cvkttgm7v77c0000gn/T/tmpmpll8eda/missing.csv'",
+      "raw": ""
+    }
+  ],
+  "audit": [
+    [
+      "good.csv",
+      "READ_COMPLETED"
+    ],
+    [
+      "good.csv",
+      "ATTEMPT_FINISHED"
+    ],
+    [
+      "wrong_encoding.csv",
+      "READ_COMPLETED"
+    ],
+    [
+      "wrong_encoding.csv",
+      "ATTEMPT_FINISHED"
+    ],
+    [
+      "empty.csv",
+      "READ_COMPLETED"
+    ],
+    [
+      "empty.csv",
+      "ATTEMPT_FINISHED"
+    ],
+    [
+      "missing.csv",
+      "ATTEMPT_FINISHED"
+    ]
+  ],
+  "permission_fault_injection": [
+    {
+      "file": "good.csv",
+      "line": 0,
+      "type": "PermissionError",
+      "message": "injected permission denial",
+      "raw": ""
+    }
+  ],
+  "missing_folder": "FileNotFoundError",
+  "chained_cause": "ValueError",
+  "specific_handler_typo": "NameError propagated as expected",
+  "broad_handler_typo": "Silently returns zero; NameError is lost"
+}
