@@ -1,0 +1,37 @@
+{
+  "python": "3.15.2 (v3.15.2:5e58eaad7c5, Oct 25 2026, 14:19:34) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "results": [
+    {
+      "program": "Task01/mess.py",
+      "exit_code": 0
+    },
+    {
+      "program": "Task02/demo.py",
+      "exit_code": 0
+    },
+    {
+      "program": "Task03/complete_code.py",
+      "exit_code": 0
+    },
+    {
+      "program": "Task03/errors_demo.py",
+      "exit_code": 0
+    },
+    {
+      "program": "Task04/demo.py",
+      "exit_code": 0
+    },
+    {
+      "program": "Task05/compare.py",
+      "exit_code": 0
+    },
+    {
+      "program": "Task06/demo.py",
+      "exit_code": 0
+    },
+    {
+      "program": "Task06/duplicate_benchmark.py",
+      "exit_code": 0
+    }
+  ]
+}
