@@ -1,0 +1,6 @@
+$ python3 Task01/mess.py
+1911260001,Student A,1250.50
+1911260002,Student B,1000.25
+Total: 2250.75 Rejects: [(3, 'damaged', 'expected register,name,amount'), (4, '1911260003,Student C,eight', "[<class 'decimal.ConversionSyntax'>]"), (5, '1911260004,Student D,-2.00', 'invalid amount')]
+50000-line total: 62525000.00 PASS
+Quoted-comma name parses and writes as valid CSV PASS

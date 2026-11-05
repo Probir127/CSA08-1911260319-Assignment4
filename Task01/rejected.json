@@ -1,0 +1,17 @@
+[
+  [
+    3,
+    "damaged",
+    "expected register,name,amount"
+  ],
+  [
+    4,
+    "1911260003,Student C,eight",
+    "[<class 'decimal.ConversionSyntax'>]"
+  ],
+  [
+    5,
+    "1911260004,Student D,-2.00",
+    "invalid amount"
+  ]
+]
