@@ -1,0 +1,11 @@
+{
+  "broken_three_days": [
+    "AB",
+    "CD",
+    "EF"
+  ],
+  "broken_handle_closed_after_failure": false,
+  "repaired_handle_closed_after_failure": true,
+  "repaired_log": "A\nB\nC\nD\nE\nF\n",
+  "missing_file_logged": "FileNotFoundError"
+}
