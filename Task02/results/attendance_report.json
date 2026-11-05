@@ -1,0 +1,23 @@
+{
+  "denominator": "accepted observed sessions only",
+  "input_has_errors": true,
+  "students": [
+    {
+      "register": "1911260001",
+      "present": 1,
+      "total": 2,
+      "percentage": 50.0,
+      "below_75": true
+    },
+    {
+      "register": "1911260002",
+      "present": 2,
+      "total": 2,
+      "percentage": 100.0,
+      "below_75": false
+    }
+  ],
+  "below_75": [
+    "1911260001"
+  ]
+}

@@ -1,0 +1,5 @@
+$ python3 Task02/demo.py
+Students: [{'register': '1911260001', 'present': 1, 'total': 2, 'percentage': 50.0, 'below_75': True}, {'register': '1911260002', 'present': 2, 'total': 2, 'percentage': 100.0, 'below_75': False}]
+Rejected rows: [{'file': 'day1.csv', 'line': 3, 'type': 'InvalidRecord', 'message': 'expected 3 fields, found 1', 'raw': 'broken'}, {'file': 'day2.csv', 'line': 3, 'type': 'InvalidRecord', 'message': 'duplicate register/date', 'raw': '1911260001,2026-10-09,P'}]
+Audit: [('day1.csv', 'READ_COMPLETED'), ('day1.csv', 'ATTEMPT_FINISHED'), ('day2.csv', 'READ_COMPLETED'), ('day2.csv', 'ATTEMPT_FINISHED')]
+Observed-session percentages and damaged/duplicate row checks PASS

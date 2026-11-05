@@ -1,0 +1,3 @@
+file,line,type,message,raw
+day1.csv,3,InvalidRecord,"expected 3 fields, found 1",broken
+day2.csv,3,InvalidRecord,duplicate register/date,"1911260001,2026-10-09,P"
