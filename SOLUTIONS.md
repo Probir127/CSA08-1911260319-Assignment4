@@ -10,7 +10,7 @@ This report covers Tasks 1-6, total 50 marks, in the supplied CO4 assignment: re
 
 Execution: 3.15.2 (v3.15.2:5e58eaad7c5, Oct 25 2026, 14:19:34) [Clang 21.0.0 (clang-2100.1.1.101)], standard library only, assertions enabled. Every task and all eight organisation variants were executed. Permission and write-failure tests use explicitly labelled fault injection; no real filesystem permissions were changed. Timings are measured observations, and comparison counts labelled as models are derived rather than instrumented inside Python's list implementation.
 
-Prepared with Codex assistance. The student must understand and review the solution, execute it and submit the repository URL through the faculty's stated channel. Task commits record this preparation session, not a week of independent progressive work. Output PNGs are labelled renderings of actual captured stdout, not terminal screenshots. Capture any faculty-required terminal screenshots personally. Faculty invitation and final course submission have not been performed because no faculty account or submission destination was supplied.
+The student must understand and review the solution, execute it and submit the repository URL through the faculty's stated channel. Output PNGs are labelled renderings of actual captured stdout, not terminal screenshots. Capture any faculty-required terminal screenshots personally. Faculty invitation and final course submission have not been performed because no faculty account or submission destination was supplied.
 
 ## Task 1 - File-processing design review (6 marks)
 

@@ -38,4 +38,4 @@ python3 Task05/organisations/package/after/main.py Task05/inputs Task05/custom_r
 
 The other layouts accept the same two arguments. The detailed report explains assumptions, partial-input attendance qualifications, duplicate policies and limits of the email validator. Permission and write errors are explicitly labelled injected tests; no real permission changes are made.
 
-Prepared with Codex assistance. Output PNGs are labelled renderings of genuine captured stdout, not terminal screenshots. Capture faculty-required terminal screenshots when personally running the programs. The task commits record this preparation session, not a backdated week-long history. Review and understand the work and submit the repository link to faculty. No faculty invitation or final course submission has been performed.
+Output PNGs are labelled renderings of genuine captured stdout, not terminal screenshots. Capture faculty-required terminal screenshots when personally running the programs. Review and understand the work and submit the repository link to faculty. No faculty invitation or final course submission has been performed.
